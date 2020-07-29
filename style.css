@@ -1,0 +1,84 @@
+body {
+  background-color: 86c4ba;
+  font-family: 'Playfair Display', serif;
+  line-height: 2;
+  font-size: 15px;
+  text-align: center;
+}
+h1 {
+  color: 4b5d67;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 30px
+}
+
+h2 {
+  color: 4b5d67;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px
+}
+
+a {
+  color: 1f4068;
+  text-decoration: none;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a:hover {
+  color: orange;
+}
+
+p2 {
+  font-size: 40;
+  color: 222831;
+  font-family: 'Fira Sans', sans-serif;
+}
+.list_style > li {
+  list-style: none;
+  display: inline;
+  font-size: 50;
+  padding: 0px 10px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 50px 0px;
+  box-shadow: 0px 5px 15px grey
+  }
+
+.image_circle {
+  border-radius: 50%;
+  width: 200;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.btn {
+  background-color:86c4ba;
+  padding: 10px 10px;
+  border-radius: 4px
+}
+
+ul {
+  padding: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
